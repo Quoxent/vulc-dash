@@ -15,7 +15,7 @@
 
 .vscode/
 bin/
-build/
+#build/
 node_modules/
 *.db
 *.log
