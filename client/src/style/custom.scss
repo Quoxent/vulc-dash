@@ -1,14 +1,20 @@
 
 @import '../../node_modules/carbon-components/scss/globals/scss/styles.scss';
 
+$orange: rgb(250, 121, 27);
+$red: rgb(255, 0, 0);
+
 html, body {
+  background: #000000 url('../img/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   font-size: 16px;
   margin: 0;
   padding: 0;
 }
 
 a, a:visited {
-  color: #1133ff;
+  color: $red;
 }
 
 .content {
@@ -24,6 +30,7 @@ a, a:visited {
 }
 
 .footer {
+  color: #777777;
   height: 8vh;
   padding: 1vh 0;
   text-align: center;
@@ -31,23 +38,25 @@ a, a:visited {
 
 .header {
   /* background: linear-gradient(135deg, $brand-01 1%, $brand-01 50%, $brand-02 80%); */
-  background-color: $brand-01;
+  background-color: #000000;
   /* min-height: 7vh; */
   text-align: left;
 
   .bx--type-beta {
+    color: #ffffff;
     font-size: 22px;
-    margin-top: 1vh;
+    margin-top: 10px;
   }
 
   a {
     &.rectangle-2 {
       background-color: transparent;
-      border: 1px solid $ui-01;
+      border: 1px solid #ffffff;
       border-radius: 8px;
-      color: $ui-01;
+      color: #ffffff;
       display: inline-block;
       height: 30px;
+      margin-bottom: 6px;
       margin-right: 5px;
       margin-top: 6px;
       min-width: 125px;
@@ -57,8 +66,8 @@ a, a:visited {
       transition: 500ms all cubic-bezier();
 
       &:hover {
-        background-color: $ui-01;
-        color: $brand-01;
+        border-color: $orange;
+        color: $orange;
       }
     }
   }
@@ -70,7 +79,7 @@ a, a:visited {
 }
 
 .logo {
-  padding-top: 0.5vh;
+  padding-top: 10px;
 
   img {
     height: 4vh;
@@ -101,12 +110,20 @@ a, a:visited {
   }
 
   &--card {
+    background: rgba(255, 255, 255, 0.1);
+    color: $orange;
     height: 21rem;
     margin-top: 10px;
     width: inherit;
+
+    &-footer {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    h4 { color: #ffffff; }
   }
 
   &--type-beta {
-    color: $ui-01;
+    color: $red;
   }
 }

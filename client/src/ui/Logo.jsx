@@ -1,5 +1,5 @@
 
-const img = require('../img/whitelogo.svg');
+const img = require('../img/whitelogo.png');
 const React = require('react');
 
 const Logo = (props) => (

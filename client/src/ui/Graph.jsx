@@ -39,8 +39,8 @@ class Graph extends React.Component {
         datasets: [{
           label: 'Bytes',
           data: this.props.data,
-          backgroundColor: ['#5596e6', '#3d70b2'],
-          borderColor: ['#4586d6', '#2d60a2'],
+          backgroundColor: ['rgb(255,0,0)', 'rgb(250,121,27)'],
+          borderColor: ['rgb(200,0,0)', 'rgb(200,101,7)'],
           borderWidth: 1
         }]
       },
