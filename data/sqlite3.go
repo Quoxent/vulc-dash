@@ -3,8 +3,8 @@ package data
 import (
 	"fmt"
 
-	"github.com/bulwark-crypto/bwk-dash/model"
 	"github.com/jmoiron/sqlx"
+	"github.com/vulcanocrypto/vulc-dash/model"
 
 	_ "github.com/mattn/go-sqlite3"
 )

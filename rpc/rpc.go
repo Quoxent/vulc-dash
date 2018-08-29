@@ -189,7 +189,7 @@ func NewRPC() (rpc *RPC, err error) {
 	rpcport, err := strconv.ParseInt(os.Getenv("DASH_RPC_PORT"), 10, 64)
 	if err != nil {
 		fmt.Println("Warning: unable to parse port from .env, setting to default.")
-		rpcport = 52541
+		rpcport = 62541
 	}
 
 	// Setup the rpc client.

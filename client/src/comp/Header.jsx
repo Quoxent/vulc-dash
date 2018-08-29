@@ -16,19 +16,19 @@ const Header = () => (
         <div className="bx--col-sm-12 bx--col-md-6" style={{ textAlign: 'right' }}>
           <a
             className="rectangle-2"
-            href="https://github.com/bulwark-crypto"
+            href="https://github.com/vulcanocrypto"
             target="_blank">
             Help
           </a>
           <a
             className="rectangle-2"
-            href="https://explorer.bulwarkcrypto.com"
+            href="https://explorer.vulcano.io"
             target="_blank">
             Block Explorer
           </a>
           <a
             className="rectangle-2"
-            href="https://github.com/bulwark-crypto"
+            href="https://github.com/vulcanocrypto"
             target="_blank">
             GitHub
           </a>

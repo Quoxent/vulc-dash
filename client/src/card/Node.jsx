@@ -8,7 +8,7 @@ const Node = (props) => (
   <Card
     icon="infrastructure"
     items={[
-      'Bulwark Node',
+      'Vulcano Node',
       <div><strong>Subversion:</strong> { props.subversion }</div>,
       <div><strong>Protocol:</strong> { props.protocol }</div>,
       <div><strong>IP Address:</strong> { props.ip }</div>

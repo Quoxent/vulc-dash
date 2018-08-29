@@ -5,9 +5,9 @@ const React = require('react');
 const Logo = (props) => (
   <div className="logo responsive-img">
     <img
-      alt="Bulwark Home Node Dashboard"
+      alt="Vulcano Home Node Dashboard"
       src={ img }
-      title="Bulwark Home Node Dashboard" />
+      title="Vulcano Home Node Dashboard" />
   </div>
 );
 

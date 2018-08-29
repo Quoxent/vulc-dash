@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"github.com/bulwark-crypto/bwk-dash/data"
 	"github.com/gin-gonic/gin"
+	"github.com/vulcanocrypto/vulc-dash/data"
 )
 
 // GetNodeInfo will return all the information

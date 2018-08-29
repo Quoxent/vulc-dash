@@ -1,32 +1,32 @@
-# bwk-dash
+# vulc-dash
 
-![Bulwark Home Node Dashboard](/client/src/img/screenshot.png?raw=true "Bulwark Home Node Dashboard")
+![Vulcano Home Node Dashboard](/client/src/img/screenshot.png?raw=true "Vulcano Home Node Dashboard")
 
 ## Requirements
 The follow items are required by the system:
 - golang 1.10+
-- bulwark node already setup with rpc information
+- vulcano node already setup with rpc information
 
 
 ## Production
-Automatically install the latest production release of the bwk-dash system.
+Automatically install the latest production release of the vulc-dash system.
 
 ### Install
 _Under active development_
 
-To install the system please run `wget https://raw.githubusercontent.com/bulwark-crypto/bwk-dash/master/script/install.sh && sudo bash install.sh`.
+To install the system please run `wget https://raw.githubusercontent.com/vulcanocrypto/vulc-dash/master/script/install.sh && sudo bash install.sh`.
 
 
 ## Development
 For development please follow the flow outlined below.
 
 ### Download
-To download the source code please run `go get github.com/bulwark-crypto/bwk-dash`.  
+To download the source code please run `go get github.com/vulcanocrypto/vulc-dash`.  
 
-The source code will be placed in `$GOPATH/src/github.com/bulwark-crypto/bwk-dash`.
+The source code will be placed in `$GOPATH/src/github.com/vulcanocrypto/vulc-dash`.
 
 ### Build
-Go to the source code folder `cd $GOPATH/src/github.com/bulwark-crypto/bwk-dash`.
+Go to the source code folder `cd $GOPATH/src/github.com/vulcanocrypto/vulc-dash`.
 
 Run the build script `./script/local_build.sh`.  This will also build the web client using `webpack` located in `./client` folder.
 
